@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Age Calculator">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Age Calculator</h1>
+        
+        <!-- Image Section -->
+        <div class="image-section">
+            <img src="unnamed.webp" alt="Age Calculator Image">
+        </div>
+
+        <!-- User Input Section -->
+        <div class="input-section">
+            <label for="birth-year"><h3>Enter your BirthYear</h3></label>
+            <input type="number" id="birth-year" placeholder="Enter your birth year" min="1900" max="2024" required>
+            <button onclick="calculateAge()">Calculate Age</button>
+        </div>
+
+        <!-- Result Section -->
+        <div class="result-box">
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
